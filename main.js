@@ -1,5 +1,5 @@
 var GITHUB_USER = "kauankelvin7";
-var TOKEN = "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"; // coloque seu token aqui se tiver: github.com/settings/tokens
+var TOKEN = ""; // coloque seu token aqui se tiver: github.com/settings/tokens
 
 // ── TEXTURAS ONLINE (nao precisam de arquivos locais) ─────────────────────────
 // Voce pode substituir por arquivos locais se tiver em textures/
