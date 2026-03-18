@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kauan Dev Globe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<canvas id="bg"></canvas>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-inner">
+    <div class="globe-spinner"></div>
+    <p>Carregando repositorios...</p>
+  </div>
+</div>
+
+<!-- INFO PANEL -->
+<div id="info-panel">
+  <div class="panel-title">Kauan Dev Globe</div>
+  <div class="panel-sub">github.com/kauankelvin7</div>
+  <div id="repo-count">Conectando ao GitHub...</div>
+</div>
+
+<!-- LEGEND -->
+<div id="legend">
+  <div class="legend-item"><span class="ldot"></span> Repositorio</div>
+  <div class="legend-item"><span class="lline"></span> Mesma linguagem</div>
+  <div class="legend-item"><span class="ltdot"></span> Dot viajante</div>
+</div>
+
+<!-- TOOLTIP -->
+<div id="tooltip"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.134/examples/js/controls/OrbitControls.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>

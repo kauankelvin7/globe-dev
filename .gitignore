@@ -1,0 +1,3 @@
+textures/ # texturas sao grandes, nao sobe
+.DS_Store
+node_modules/
